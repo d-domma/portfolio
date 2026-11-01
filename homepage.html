@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+  Name: Darshika Domma
+  File Name: homepage.html
+  Date: 2025-07-21
+-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Darshika Domma's personal portfolio site. Explore my projects, skills, and contact details.">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Darshika Domma | Portfolio Home</title>
+</head>
+
+<body>
+  <!-- Hamburger Menu -->
+  <div class="hamburger" onclick="toggleMenu()">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+
+  <header>
+    <figure>
+      <img src="images/darshika.jpg" alt="Photo of Darshika Domma">
+      <figcaption>Crafting Code, Creating Impact</figcaption>
+    </figure>
+    <h1>Darshika Domma</h1>
+  </header>
+
+  <nav id="nav-menu">
+    <ul>
+      <li><a href="homepage.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <p class="mobile-only">Welcome, mobile user! 📱</p>
+    <p class="desktop-only">Welcome to the desktop version of my portfolio. 🖥️</p>
+
+    <h3>Welcome!</h3>
+    <p>Hello, I'm Darshika. Welcome to my personal portfolio website! 🌟</p>
+    <p>Here, you'll find my web development projects, resume, and ways to connect with me.</p>
+
+    <!-- Desktop table -->
+    <div class="desktop-only">
+      <h3>Tech Proficiencies</h3>
+      <table class="tech-table">
+        <thead>
+          <tr>
+            <th>Language</th>
+            <th>Experience</th>
+            <th>Projects</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML/CSS</td>
+            <td>Advanced</td>
+            <td>Portfolio, Resume Site</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Intermediate</td>
+            <td>Finance Tracker</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Advanced</td>
+            <td>AI Cancer Detection</td>
+          </tr>
+          <tr>
+            <td>React/Angular</td>
+            <td>Intermediate</td>
+            <td>Gift Store, FinTree</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Mobile version of table -->
+    <div class="mobile-only">
+      <h3>Tech Proficiencies</h3>
+      <ul>
+        <li><strong>HTML/CSS:</strong> Advanced — Portfolio, Resume Site</li>
+        <li><strong>JavaScript:</strong> Intermediate — Finance Tracker</li>
+        <li><strong>Python:</strong> Advanced — AI Cancer Detection</li>
+        <li><strong>React/Angular:</strong> Intermediate — Gift Store, FinTree</li>
+      </ul>
+    </div>
+
+    <!-- Contact Form -->
+    <section class="contact-form">
+      <h3>Contact Me</h3>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Darshika Domma | <a href="mailto:yourname@student.school.edu">Email Me</a></p>
+    <a href="https://www.linkedin.com" target="_blank">
+      <img src="images/logo.png" alt="LinkedIn" class="social-icon">
+    </a>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
